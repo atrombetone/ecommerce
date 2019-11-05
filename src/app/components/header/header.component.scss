@@ -1,0 +1,29 @@
+@import '../../../assets/theme.scss';
+
+mat-toolbar {
+  background-color: $primary;
+}
+
+mat-toolbar-row {
+  width: 1200px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+mat-form-field input {
+  background-color: #fff;
+  padding: 7px 60px 9px 15px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 0 rgba(0,0,0,.2);
+  font-size: 16px;
+}
+
+.logo {
+  background-image: url('https://http2.mlstatic.com/ui/navigation/5.3.5/mercadolibre/logo-pt__large_plus.png');
+  width: 134px;
+  height: 34px;
+  margin-right: 30px;
+}

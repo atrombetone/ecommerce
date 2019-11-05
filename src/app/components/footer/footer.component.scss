@@ -1,0 +1,15 @@
+@import '../../../assets/theme.scss';
+
+.mat-primary {
+  background-color: $primary;
+  font-weight: normal;
+  color: gray;
+}
+.footer {
+  background-color: #fff;
+  height: 89px;
+  width: 1200px;
+  margin: 0 75px 0 75px;
+  padding: 16px 10px 16px 10px;
+  max-width: 1200px;
+}
